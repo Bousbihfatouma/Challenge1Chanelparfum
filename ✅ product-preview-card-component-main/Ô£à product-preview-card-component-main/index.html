@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+             <title>DesCodeuses | Product preview card component</title>
+</head>
+<body>
+  <!--créer un conteneur pour que nous puissions tout mettre à l'intérieur afin que le conteneur le fasse contenir toute la carte-->
+<div class="containercarte">
+  <!--pour appliquer la grille d'affichage-->
+  <div class="grid">
+    <!--la première div contiendra l'image-->
+      <div class="Photosprincipale">
+            <img src="images/image-product-desktop.jpg" alt="image principale" width="300" height="450">
+      </div>
+     <!--la deuxième div contiendra tous les éléments texte et prix-->
+     <div class="titretexteprix">
+      <!--Nous sommes sur la page categorie parfum-->
+          <nav class="categorie">Perfume</nav>
+      <!--c'est le titre principale le plus gros -->
+          <header>
+             <h1>Gabrielle Essence Eau De Parfum </h1>
+          </header>
+    <!--description paragraphe-->
+          <p class="Descriptionduparfum">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+    <!--prix des parfums : ancien et maintenant-->
+        <div class="containerprix">
+         <p class="prixduparfum" >$149.99</p>
+        <p class="prixancien">$169.99</p>
+        </div>
+    
+    <!--button-->
+        <button class="achat"><img src="images/icon-cart.svg"alt="icon-cart">Add to cart</button>
+         </div>
+  </div>
+</div>
+</body>
+</html>
